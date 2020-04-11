@@ -1,0 +1,16 @@
+{
+    "name": "JsPWA",
+    "short_name": "JsPWA",
+    "description": "This is a PWA developed with Core Javascript Only.",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ec7e81",
+    "icons": [
+      {
+        "src": "./img/pawprint.png",
+        "sizes": "512x512"
+      }
+    ],
+    "background_color": "#ec7e81"
+  }
