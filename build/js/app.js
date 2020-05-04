@@ -18,3 +18,29 @@ fetch('https://reqres.in/api/users')
         li.innerHTML = " ❌ Error while fetching data from API ❌ ";
         list.appendChild(li);
 })
+
+
+    var data = null;
+    
+    var xhr = new XMLHttpRequest();
+    
+    xhr.addEventListener("readystatechange", function () {
+      if (this.readyState === 4) {
+        console.log(this.responseText);
+      }
+    });
+    
+    xhr.open("GET", "https://www.knowyourgst.com/developers/gstincall/?gstin=05AAGCV2761G1ZD");
+    xhr.setRequestHeader("passthrough", "YXBpdGVzdDEyMzM1MzQxMjU0NTQ");
+    xhr.setRequestHeader("User-Agent", "PostmanRuntime/7.16.3");
+    xhr.setRequestHeader("Accept", "*/*");
+    xhr.setRequestHeader("Cache-Control", "no-cache");
+    xhr.setRequestHeader("Postman-Token", "8c359fd7-2668-401c-abed-88e5c232b46c,ce65e28b-719f-4272-a644-e3aeed7e89b9");
+    xhr.setRequestHeader("Host", "www.knowyourgst.com");
+    xhr.setRequestHeader("Accept-Encoding", "gzip, deflate");
+    xhr.setRequestHeader("Connection", "keep-alive");
+    xhr.setRequestHeader("cache-control", "no-cache");
+    xhr.setRequestHeader("Access-Control-Request-Headers", "passthrough");
+    xhr.setRequestHeader("Access-Control-Allow-Headers", "passthrough");
+          
+    xhr.send(data);
