@@ -30,7 +30,7 @@ fetch('https://reqres.in/api/users')
       }
     });
     
-    xhr.open("GET", "https://www.knowyourgst.com/developers/gstincall/?gstin=05AAGCV2761G1ZD");
+    xhr.open("GET", "https://reqres.in/api/users");
     xhr.setRequestHeader("passthrough", "YXBpdGVzdDEyMzM1MzQxMjU0NTQ");
     xhr.setRequestHeader("User-Agent", "PostmanRuntime/7.16.3");
     xhr.setRequestHeader("Accept", "*/*");
